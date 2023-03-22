@@ -1,11 +1,7 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+#include "main.h"
 /**
- * @i : the number to affich
- * positive_or_negative - prints positive,zero or negative i.
+ *positive_or_negative-is a function that prints positive or negative integer.
+ *@i is the integer to check.
 */
 void positive_or_negative(int i)
 {
