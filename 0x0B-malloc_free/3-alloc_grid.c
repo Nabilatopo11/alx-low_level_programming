@@ -24,6 +24,13 @@ for (j = 0; j < height; j++)
 {
 ar[j] = malloc(height * sizeof(int));
 }
+if (ar[j] == NULL)
+{
+for (; j >= 0; j--)
+free(ar[j]);
+free(ar);
+return (NULL);
+}
 for (j = 0; j < height; j++)
 {
 for (i = 0; i < width; i++)
