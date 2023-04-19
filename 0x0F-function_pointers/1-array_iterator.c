@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- * print_name - prints a name.
+ * array_iterator - that executes a function.
  * @array: array.
  * @size :size.
- *action: pointer.
+ * @action: pointer.
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
